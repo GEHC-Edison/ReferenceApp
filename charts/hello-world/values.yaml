@@ -31,7 +31,7 @@ resources:
 
 configMap:
   qidoURL: "http://a4ca8fdfa8a944b6fbcc34234ea95bbb-1168994778.us-east-1.elb.amazonaws.com:30043"
-  workflowURL: "http://a06b15241bc9d434fb6ec33824587190-1479194273.us-east-1.elb.amazonaws.com:8080"
-  imagingURL: "http://aecdc88cda9db4f9baa68fcaa100595b-1589018792.us-east-1.elb.amazonaws.com:4000"
-  imagingHost: "a4aef5d76c05247ffbdd7f04471bc0bd-25671258.us-east-1.elb.amazonaws.com:8080"
+  workflowURL: "http://a575917c76a8142829b893593958fc61-1928811822.us-east-1.elb.amazonaws.com:8080"
+  imagingURL: "http://af647802cee9241918ebbe0e9c2ca137-1728527681.us-east-1.elb.amazonaws.com:4000"
+  imagingHost: "a3b8130d7d7894f80abfd811fba8af82-1225462591.us-east-1.elb.amazonaws.com:8080"
 
