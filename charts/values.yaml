@@ -1,0 +1,37 @@
+appName: hello-world
+serviceName: hello-world
+configName: hello-world-config
+
+image:
+  artifactory: blr-artifactory.cloud.health.ge.com
+  nodeType: LoadBalancer
+  repository: 474054470595.dkr.ecr.us-east-1.amazonaws.com/hello-world
+  imageName: hello-world
+  tag: latest
+
+global:
+  namespace: edison-ai
+  nodeType: LoadBalancer
+  iso: true
+  registry_base_url: 474054470595.dkr.ecr.us-east-1.amazonaws.com
+
+
+internalPort: 80
+replicas: 1
+imagePullPolicy: IfNotPresent
+
+
+resources:
+  limits:
+    cpu: 250m
+    memory: 256Mi
+  requests:
+    cpu: 250m
+    memory: 256Mi
+
+configMap:
+  qidoURL: "http://a4ca8fdfa8a944b6fbcc34234ea95bbb-1168994778.us-east-1.elb.amazonaws.com:30043"
+  workflowURL: "http://a575917c76a8142829b893593958fc61-1928811822.us-east-1.elb.amazonaws.com:8080"
+  imagingURL: "http://af647802cee9241918ebbe0e9c2ca137-1728527681.us-east-1.elb.amazonaws.com:4000"
+  imagingHost: "a3b8130d7d7894f80abfd811fba8af82-1225462591.us-east-1.elb.amazonaws.com:8080"
+
