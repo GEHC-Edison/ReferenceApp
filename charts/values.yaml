@@ -30,8 +30,8 @@ resources:
     memory: 256Mi
 
 configMap:
-  qidoURL: "http://af9e7dd2305594244b51d006d9f2d22d-508149179.us-east-1.elb.amazonaws.com:30043"
-  workflowURL: "http://aa47238a44b47437ca9dc4303aec71b8-769375013.us-east-1.elb.amazonaws.com:8080"
+  qidoURL: "http://a98a2c9cc5ab64dcc8c20de09b14ab94-1563977660.us-east-1.elb.amazonaws.com:30043"
+  workflowURL: "http://a7075b72e61e54686a5a1384d2946116-2086856152.us-east-1.elb.amazonaws.com:8080"
   imagingURL: "http://a79622b36627f4630925f4b9f5199cbd-592421661.us-east-1.elb.amazonaws.com:4000"
   imagingHost: "a3a58a8d60c0f47cabb949411c52391a-2063558325.us-east-1.elb.amazonaws.com:8080"
 
